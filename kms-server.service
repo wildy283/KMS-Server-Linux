@@ -1,0 +1,10 @@
+[Unit]
+Description=KMS Server
+
+[Service]
+ExecStart=/usr/bin/vlmcsd -L 0.0.0.0:1688 -l /var/log/kms-log.txt -p /var/log/kms-server.pid -D
+Type=simple
+User=root
+
+[Install]
+WantedBy=multi-user.target
