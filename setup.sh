@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# https://github.com/wildy238/KMS-Server-Linux
+# https://github.com/wildy283/KMS-Server-Linux
 
 cp vlmcsd /usr/bin/vlmcsd
 chmod +x /usr/bin/vlmcsd
